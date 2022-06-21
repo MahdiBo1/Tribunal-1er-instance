@@ -1,0 +1,145 @@
+/*------------------header--------------*/
+header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background: rgb(243, 135, 33);
+padding: 2px 100px;
+box-shadow: 0 5px 20px rgba(235, 152, 0);
+}
+/*...........logo............*/
+header .logo{
+    color: #fff;
+    font-weight: 7000;
+    font-size:30px;
+    text-decoration:none ;height: "100%";
+    margin-top: 50px;
+}
+
+
+header .logo span {
+    color: rgb(163, 85, 11, 0.877)
+}
+/*...........end-logo........*/
+
+/*...........nav............*/
+header  .navigation{
+position: none ;
+display: flex;
+margin-right: 20%;
+font-size: 16px;
+float: right;
+}
+header  .navigation li
+{
+list-style:none ;
+margin-left: 10px;
+display: inline-block;
+}
+header  .navigation li a {
+text-decoration:none ;
+font-weight:300 ;  
+color :#fff;    
+padding: 10px 10px;
+}
+header  > .navigation li a:hover {
+letter-spacing: 4px; 
+background-color:rgb(243, 135, 33) ;
+color: rgb(253, 253, 253);
+}
+header .navigation li a.active {
+border: 2px solid #fff;
+}
+header .navigation li.conn{
+    margin-left: 10px;
+    margin-right: 0,6px;
+    }
+    header .navigation li.conn{
+        margin-left: 100px;
+        margin-right: 6px;
+        }
+/*...........end-nav............*/
+
+/*...........sous_nav............*/
+.sub-content{
+    position: absolute;
+margin-top: 9px;    overflow: hidden;
+    background-color: rgba(20, 20, 19, 0.404);
+    max-height: 0;
+  margin-left: 0px;
+}
+.sub-drop{
+padding: 0;
+}
+.sub-drop ul{
+ padding: 0;
+ width: 100%;
+ margin: 0;
+ list-style-type: none;
+}
+.sub-drop ul li{
+display: table-footer-group;
+}
+.sub-drop ul li a{
+ display: inline-block;
+ padding: 10px 10px;
+ color: rgb(255, 255, 255);
+}
+
+header ul li:hover  .sub-content{
+  max-height: 400px;
+  transition:max-height 0.5s ease-in;
+}
+.sub-drop ul li:hover{
+ background-color: rgb(243, 135, 33);
+
+
+}
+/*...........end-sous_nav............*/
+.content{
+    padding: 10px 10px 10px 10px;
+}
+.content p{
+    color: #111;
+    font-size: 20px;
+    font-family: zen dots;
+    line-height: 30px;
+    align-items: flex-start;
+}
+.content h2 span{
+    color: rgb(243, 135, 33);
+font-weight: 700;
+font-size: 1.5em;
+}
+.content h2{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.content .map{
+    text-align: center;
+}
+.content .map iframe{
+    text-align: center;
+    margin-top: 4%;
+   width: 60%;
+   margin-bottom: 3%;
+}
+/*-----------------copyright--------------*/
+
+.copyright {
+	background-color: rgb(255, 255, 255);
+	padding: 20px 0px;
+	;
+	margin-top: 150px;
+}
+
+.copyright p {
+	color: #000;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+}
+/*-----------------end-copyright--------------*/

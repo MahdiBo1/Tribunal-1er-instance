@@ -1,0 +1,136 @@
+/*------------------header--------------*/
+header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background: rgb(243, 135, 33);
+padding: 2px 10px;
+box-shadow: 0 5px 20px rgba(0, 0,0,0.05);
+}
+/*...........logo............*/
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size:40px;
+    text-decoration:none ;height: "100%";
+    margin-top: 50px;
+}
+
+
+header .logo span {
+    color: rgb(39, 20, 2);
+}
+/*...........end-logo........*/
+
+/*...........nav............*/
+header  .navigation{
+position: none ;
+display: flex;
+margin-right: 1%;
+font-size: 20px;
+float: right;
+}
+header  .navigation li
+{
+list-style:none ;
+margin-left: 30px;
+display: inline-block;
+}
+header  .navigation li a {
+text-decoration:none ;
+font-weight:300 ;  
+color :#fff;    
+padding: 10px 10px;
+}
+header  > .navigation li a:hover {
+letter-spacing: 0.4px; 
+background-color:rgb(0, 0, 0) ;
+color: floralwhite;
+}
+header .navigation li a.active {
+border: 2px solid #fff;
+}
+header .navigation li.conn{
+    margin-left: 100px;
+    margin-right: 6px;
+    }
+    header .navigation li.conn{
+        margin-left: 100px;
+        margin-right: 6px;
+        }
+/*...........end-nav............*/
+
+/*...........sous_nav............*/
+.sub-content{
+    position: absolute;
+margin-top: 9px;    overflow: hidden;
+    background-color: rgba(20, 20, 19, 0.404);
+    max-height: 0;
+  margin-left: 0px;
+}
+.sub-drop{
+padding: 0;
+}
+.sub-drop ul{
+ padding: 0;
+ width: 100%;
+ margin: 0;
+ list-style-type: none;
+}
+.sub-drop ul li{
+display: table-footer-group;
+}
+.sub-drop ul li a{
+ display: inline-block;
+ padding: 10px 10px;
+ color: rgb(255, 255, 255);
+}
+
+header ul li:hover  .sub-content{
+  max-height: 400px;
+  transition:max-height 0.5s ease-in;
+}
+.sub-drop ul li:hover{
+ background-color: rgb(8, 8, 5);
+
+
+}
+/*...........end-sous_nav............*/
+.content {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #fff;
+    margin-right : 10px ;
+    margin-left: 10px ;
+    margin-top: 68px;
+    background-color: rgba(243, 135, 33);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+
+}
+
+.content .titlepage {
+	float: left;
+	padding-bottom: 60px;
+    margin-left:  30px;
+}
+
+.content .titlepage h2 {
+	font-size: 40px;
+	
+	color: #050303;
+	line-height: 46px;
+	border-bottom: rgb(243, 135, 33) solid 1px;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+
+.content .row iframe{
+	margin-top: 20px;
+    margin-left: 100px;
+}
